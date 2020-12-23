@@ -24,7 +24,8 @@ class ProductController extends Controller
         'sanpham.VGA',
         'sanpham.manhinh',
         'sanpham.hedieuhanh',
-        'sanpham.mota')
+        'sanpham.mota',
+        'sampham.status')
         ->where('sanpham.ma_sp','=',$id)
         ->get();
         $dataimage = DB::table('hinh')->where('SANPHAMma_sp','=',$id)->get();

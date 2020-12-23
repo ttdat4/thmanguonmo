@@ -13,8 +13,6 @@
         </div>
     </div>
 </div>
-<!-- Li's Breadcrumb Area End Here -->
-            <!-- content-wraper start -->
             <div class="content-wraper">
                 <div class="container">
                     <div class="row single-product-area">
@@ -70,21 +68,6 @@
                                         <span><b>Hệ điều hành:</b> {{$item->hedieuhanh}}</span> <br>
                                         </p>
                                     </div>
-                                    {{-- <div class="single-add-to-cart">
-                                        <form action="#" class="cart-quantity">
-                                            <div class="quantity">
-                                                <label>Số lượng</label>
-                                                <div class="cart-plus-minus">
-                                                    <input class="cart-plus-minus-box" value="1" type="text">
-                                                    <div class="dec qtybutton"><i class="fa fa-angle-down"></i></div>
-                                                    <div class="inc qtybutton"><i class="fa fa-angle-up"></i></div>
-                                                </div>
-                                            </div>
-                                            <button class="add-to-cart" type="submit">
-                                                Thêm vào giỏ
-                                            </button> 
-                                        </form>
-                                    </div> --}}
                                     <div class="product-additional-info pt-25">
                                         <div class="product-social-sharing pt-25">
                                             <ul>
