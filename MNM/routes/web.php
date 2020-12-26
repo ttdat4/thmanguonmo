@@ -2,6 +2,7 @@
 
 use App\Http\Controllers\admin\DonhangController;
 use App\Http\Controllers\admin\QuanlyController;
+use App\Http\Controllers\admin\QuanlykhachhangController;
 use App\Http\Controllers\admin\SanphamController;
 use App\Http\Controllers\user\AccountController;
 use App\Http\Controllers\user\CartController;
@@ -35,6 +36,7 @@ Route::prefix('quanly')->group(function (){
     Route::get('/home',[QuanlyController::class,'homequanly'])->name('homeql')->middleware('authAdmin');
     Route::get('/donhang',[DonhangController::class,'index'])->name('donhang')->middleware('authAdmin');
     Route::get('/chitietdh/{id}',[DonhangController::class,'chitietdh'])->name('chitietdh')->middleware('authAdmin');
+    Route::get('/quanlykh',[QuanlykhachhangController::class,'index'])->name('quanlykh')->middleware('authAdmin');
     Route::prefix('sanpham')->middleware('authAdmin')->group(function(){
         Route::get('/themsp',[SanphamController::class,'index'])->name('insertsp');
         Route::post('/themsp',[SanphamController::class,'themsp'])->name('insertsp');

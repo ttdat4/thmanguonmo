@@ -37,9 +37,9 @@
         <i class="fas fa-fw fa-table"></i>
         <span>Đơn hàng</span>
       </a>
-      <a class="nav-link" href="{{asset('#')}}">
+      <a class="nav-link" href="{{route('quanlykh')}}">
         <i class="fas fa-fw fa-table"></i>
-        <span>Thành viên</span>
+        <span>Khách hàng</span>
       </a>
     </li>
     <!-- Divider -->
