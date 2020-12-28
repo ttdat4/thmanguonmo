@@ -91,5 +91,5 @@
         </div>
     </div>
 </div>
-<!-- Login Content Area End Here -->
+<!-- Login Content Area End Here >
 @endsection
