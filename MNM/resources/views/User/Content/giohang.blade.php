@@ -67,7 +67,7 @@
                     <div class="row">
                         <div class="col-md-5 ml-auto">
                             <div class="cart-page-total">
-                                <h2>Tổng giỏ hàng</h2>
+                                <h2>Tổng Tiền giỏ hàng</h2>
                                 <ul>
                                     @if(Session::has("Cart") != null)
                                         <li>Tổng số lượng <span>{{(Session::get('Cart')->tongsl)}}</span></li>
