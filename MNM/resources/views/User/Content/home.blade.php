@@ -56,7 +56,7 @@
             <div class="col-lg-12">
                 <div class="li-product-tab">
                     <ul class="nav li-product-menu">
-                       <li><a class="active" data-toggle="tab" href="#li-new-product"><span>Sản phâm mới</span></a></li>
+                       <li><a class="active" data-toggle="tab" href="#li-new-product"><span>Sản phẩm mới</span></a></li>
                     </ul>
                 </div>
                 <!-- Begin Li's Tab Menu Content Area -->
